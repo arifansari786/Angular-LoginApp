@@ -1,0 +1,32 @@
+<div class="header">
+  <ul>
+    <li>
+      <a routerLink="/home">Home</a>
+    </li>
+    <li>
+      <a routerLink="/about">About</a>
+    </li>
+    <li>
+      <a routerLink="/login">Login</a>
+    </li>
+  </ul>
+</div>
+<div class="main-content">
+  <h3>home is working</h3>
+  <p>Below are the prerequisites to run Developer VM on a Windows laptop.
+    <br> Recent version of Digital Guardian. Must be 7.2.1.0501 or higher.
+    <br> BIOS settings "Intel Virtualization Technology" enabled and "VT-d" enabled.
+    <br> These are required to run 64-bit VMs.
+    <br> Your specific BIOS settings may be slightly different, but essentially you need to enable support for virtualization
+    in the BIOS.
+    <br> Install VirtualBox 5.1.12 from
+    <a href="https://www.virtualbox.org/wiki/Download_Old_Builds_5_1 .">https://www.virtualbox.org/wiki/Download_Old_Builds_5_1 .</a> You may be able to use a more recent version, but if you have issues try downgrading before opening a support ticket.
+    Periodically, we will require upgrades to VirtualBox in order to get support for the VMs.
+    <br> Download and install VirtualBox Extension Pack that is suitable for your version of VirtualBox. It is available at the
+    same section where you downloaded the VirtualBox from. Once it is downloaded, on your Oracle VM VirtualBox Manager, go
+    to FilePreferencesExtensions and add it there.
+    <br> In order to make it easy to upgrade to new versions of the VM, we map a folder on your Windows host PC to a mount point
+    in the VM. To enable this, you must create the following folder structure on your Windows Host PC: C:\boxes\dev\shared
+  </p>
+</div>
+<router-outlet></router-outlet>

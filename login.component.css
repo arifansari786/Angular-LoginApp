@@ -1,0 +1,57 @@
+.container {
+    border-radius: 15px;
+    text-align:center;
+    background-color: #6b9597;
+    padding: 10px;
+  }
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }  
+
+input[type=submit]:hover {
+    background-color: #5945a0;
+  }
+  .form-control.is-invalid,
+  .was-validated .custom-select:invalid,
+  .was-validated .form-control:invalid{border-color:#dc3545
+}
+.custom-select.is-invalid:focus,
+.form-control.is-invalid:focus,
+.was-validated .custom-select:invalid:focus,
+.was-validated .form-control:invalid:focus{border-color:#dc3545;box-shadow:0 0 0 .2rem rgba(220,53,69,.25)
+}
+.custom-select.is-invalid~.invalid-feedback,
+.custom-select.is-invalid~.invalid-tooltip,
+.form-control.is-invalid~.invalid-feedback,
+.form-control.is-invalid~.invalid-tooltip,
+.was-validated .custom-select:invalid~.invalid-feedback,
+.was-validated .custom-select:invalid~.invalid-tooltip,
+.was-validated .form-control:invalid~.invalid-feedback,
+.was-validated .form-control:invalid~.invalid-tooltip{
+    display:block
+}
+.form-control-file.is-invalid~.invalid-feedback,
+.form-control-file.is-invalid~.invalid-tooltip,
+.was-validated .form-control-file:invalid~.invalid-feedback,
+.was-validated .form-control-file:invalid~.invalid-tooltip{
+    display:block
+}
+  
+
+
+
+
